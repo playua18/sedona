@@ -722,7 +722,7 @@ fieldset {
 
 .hotels-price {
   float: right;
-  width: 328px;
+width: 30%;
   margin-right: 6%;
 }
 
@@ -732,7 +732,7 @@ fieldset {
 
 .pice-wrapper {
   float: right;
-  width: 318px;
+  width: 97%;
 }
 
 .price-form {
@@ -745,6 +745,7 @@ fieldset {
 }
 
 .price-scales {
+  float: right;
   position: relative;
   width: inherit;
   margin-bottom: 20px;
@@ -775,8 +776,9 @@ fieldset {
 }
 
 .scale-toggles {
+  float: right;
   margin: 0 auto;
-  width: 300px;
+  width: 93%;
   height: 2px;
   background: #827b7c;
   margin-bottom: 32px;
@@ -843,7 +845,7 @@ fieldset {
 }
 
 .sorting-quantity {
-  margin-right: 45px;
+  margin-right: 5%;
 }
 
 .sorting {
@@ -851,8 +853,8 @@ fieldset {
   color: #000;
 }
 
-.sorting-selection a {
-  margin-right: 30px;
+.sorting-selection > a {
+  margin-right: 3%;
   text-decoration: none;
   color: #b1b1b1;
   border-bottom: 1px dotted #81b3d2;
@@ -873,7 +875,6 @@ a.sorting-active {
 }
 
 .sorting-indicator {
-  position: relative;
   float: right;
   width: 40px;
   height: 11px;
@@ -881,22 +882,18 @@ a.sorting-active {
 }
 
 .sorting-direction {
-  position: absolute;
-  margin: 0;
-  padding: 0;
+  border-style: solid;
 }
 
 a.dir-up {
-  left: 0px;
+  float: left;
   border-width: 0 6px 12px;
-  border-style: solid;
   border-color: transparent transparent #cccccc;
 }
 
 a.dir-down {
-  right: -30px;
+  float: right;
   border-width: 12px 6px 0;
-  border-style: solid;
   border-color: #81b3d2 transparent transparent;
 }
 
