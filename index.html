@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Седона</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="/img/favicon.ico)" type="image/x-icon"> </head>
+
+<body>
+  <header class="main-header container clearfix">
+    <nav class="main-navigation">
+      <ul>
+        <li><a class="nav-active" href="index.html">Информация</a></li>
+        <li><a class="nav-soon" href="#">Фото и видео</a></li>
+        <li>
+          <a class="main-logo" href="index.html"><img src="img/logo-sedona.png" alt="Sedona logo"></a>
+        </li>
+        <li><a class="nav-soon" href="#">Карта штата</a></li>
+        <li><a href="hotels.html">Гостинницы</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container clearfix">
+    <div class="wallpaper">
+      <p class="wallp-welcome">Welcome</p>
+      <p class="wallp-gorgerouse">to the gorgeous</p>
+      <h1>Sedona</h1>
+      <p class="wallp-canyon">"Because the Grand Canyon sucks!"</p>
+    </div>
+    <div class="sedona-description">
+      <p class="title">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
+      <p>Нассмотрим 5 причин по которым Седона круче чем Гранд Каньон!</p>
+    </div>
+    <div class="advantages-wrapper">
+      <div class="advantages city">
+        <div class="advantages-description">
+          <p class="title">Настоящий
+            <br> городок
+            <p>
+              <p class="advantages-number">№1</p>
+              <p>Седона - не атракцион для туристов, там течёт своя жизнь</p>
+        </div>
+        <div class="city-img"><img src="/img/city.jpg" alt=""></div>
+      </div>
+      <div class="city-advantages">
+        <div class="city-advantages-item motel">
+          <p class="title">Жилье</p>
+          <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        </div>
+        <div class="city-advantages-item meal">
+          <p class="title">Еда</p>
+          <p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+        </div>
+        <div class="city-advantages-item souvenirs">
+          <p class="title">Сувениры</p>
+          <p>Не только китайского, но и местного производства!</p>
+        </div>
+      </div>
+      <div class="advantages bridge">
+        <div class="advantages-description">
+          <p class="title">Там есть
+            <br> Мост Дьявола</p>
+          <p class="advantages-number">№2</p>
+          <p>Да, по нему можно пройтись! Если конечно Вы осмелитесь</p>
+        </div>
+        <div class="bridge-img"><img src="/img/bridge.jpg" alt=""></div>
+      </div>
+      <div class="bridge-advantages">
+        <div class="bridge-advantages-item territory">
+          <p class="title">Небольшая площадь</p>
+          <p class="advantages-number">№3</p>
+          <p>Все достопримеча тельности находятся очень близко</p>
+        </div>
+        <div class="bridge-advantages-item road">
+          <p class="title">Красивая дорога</p>
+          <p class="advantages-number">№4</p>
+          <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
+        </div>
+        <div class="bridge-advantages-item tourists">
+          <p class="title">Мало туристов</p>
+          <p class="advantages-number">№5</p>
+          <p>Большинство едет в гранд каньон и толпится там</p>
+        </div>
+      </div>
+    </div>
+    <div class="offer">
+      <p class="offer-title">Заинтересовались?</p>
+      <p class="offet-text">Укажите предполагаемые даты поездки,
+        <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+    </div>
+    <div class="offer-form">
+      <p class="offer-form-title">Поиск гостинницы в Седоне</p>
+      <form class="hidden-form" action="post">
+        <label class="checkin">Дата заезда:
+          <input type="date" value="15 июнь 2017" readonly> </label>
+        <label class="checkout">Дата заезда:
+          <input type="date" value="4 августа 2017" readonly> </label>
+        <label class="adults">Взрослые:
+          <div class="ppl-wrapper">
+            <a href="#" class="ppl minus"></a>
+            <input class="quantity" type="text" pattern="[0-9]{1,2}" value="2">
+            <a href="#" class="ppl plus"></a>
+          </div>
+        </label>
+        <label class="children">Дети:
+          <div class="ppl-wrapper">
+            <a href="#" class="ppl minus"></a>
+            <input class="quantity" type="text" pattern="[0-9]{1,2}" value="0">
+            <a href="#" class="ppl plus"></a>
+          </div>
+        </label>
+        <button class="hidden-form-btn" type="submit">Найти</button>
+      </form>
+    </div>
+    <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d419278.80063572724!2d-112.01847217155029!3d34.81561089650607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1494170570131" width="100%" height="473px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+  </main>
+  <footer class="main-footer container clearfix">
+    <div class="footer-block hashtag-sedona"> <a class="title" href="">#visitsedona</a> </div>
+    <div class="footer-block social">
+      <a href="#" class="social-icon icon-tw"></a>
+      <a href="#" class="social-icon icon-fb"></a>
+      <a href="#" class="social-icon icon-youtube"></a>
+    </div>
+    <div class="footer-block copyright">Design by
+      <a href="#" class="logo-academy"></a>
+    </div>
+  </footer>
+  <script src="js/hidden-form.js"></script>
+</body>
+
+</html>
