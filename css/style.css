@@ -1027,3 +1027,20 @@ a.dir-down:active {
 .rating-values  {
   margin-left: 5px;
 }
+
+.nav-ready {
+  position: relative;
+}
+
+.nav-ready::before {
+  position: absolute;
+  right: 30%;
+  bottom: 0;
+  padding: 0 10px;
+  border-radius: 10px 0px 0 0;
+  background: rgba(110, 0, 220, 0.5);
+  content: 'ready';
+  font-size: 13px;
+  line-height: 13px;
+  color: #fff;
+}
