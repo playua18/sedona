@@ -33,7 +33,7 @@ html {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.clearfix {
+.clearfix::after {
   display: table;
   clear: both;
   content: "";
