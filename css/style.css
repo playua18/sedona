@@ -829,6 +829,7 @@ width: 30%;
   background: none;
   color: #fff;
   padding: 0 34px;
+  cursor: pointer;
 }
 
 .hr-bottom {
