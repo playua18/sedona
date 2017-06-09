@@ -1,1 +1,1 @@
-# sedona
+# Sedona резина
